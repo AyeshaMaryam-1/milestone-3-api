@@ -12,7 +12,7 @@ export default function Header() {
 
   useEffect(() => {
     const menuToggle = document.querySelector('.menu-toggle');
-    const mobileMenu = document.querySelector('.mobile-menu');
+    const mobileMenu = document.querySelector('.mobile-menu')!;
 
     // Function to toggle the menu
     const toggleMenu = () => {
